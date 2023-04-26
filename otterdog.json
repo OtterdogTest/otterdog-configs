@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "github": {
+      "config_repo": ".eclipsefdn-private",
+      "auto_init_repo": true
+    },
+    "bitwarden": {
+      "api_token_key": "api_token_admin"
+    },
+    "jsonnet": {
+      "base_template": {
+        "repo": "https://github.com/EclipseFdn/otterdog-defaults",
+        "branch": "main",
+        "file": "otterdog-defaults.libsonnet"
+      },
+      "config_dir": "orgs"
+    }
+  },
+  "organizations": [
+    {
+      "name": "otterdogtest",
+      "github_id": "OtterdogTest",
+      "credentials": {
+        "provider": "bitwarden",
+        "item_id" : "118276ad-158c-4720-b68d-af8c00fe3481"
+      }
+    }
+  ]
+}
