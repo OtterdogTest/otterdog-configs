@@ -1,7 +1,7 @@
 {
   "defaults": {
     "github": {
-      "config_repo": ".eclipsefdn-private",
+      "config_repo": ".eclipsefdn",
       "auto_init_repo": true
     },
     "bitwarden": {
