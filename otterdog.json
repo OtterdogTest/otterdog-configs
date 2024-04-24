@@ -21,7 +21,7 @@
       }
     },
     {
-      "name": "tutorial",
+      "name": "tutorial1",
       "github_id": "EclipseConTutorial",
       "credentials": {
         "provider": "bitwarden",
